@@ -45,7 +45,7 @@ class _Home_layoutState extends State<Home_layout> {
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
             BottomNavigationBarItem(icon: Icon(Icons.category_sharp), label: "Categories"),
             BottomNavigationBarItem(
-                icon: Icon(Icons.account_circle_rounded), label: "Account"),
+                icon: Icon(Icons.account_circle_rounded), label: "Profile"),
           ]),
     );
   }

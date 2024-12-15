@@ -22,9 +22,9 @@ class About extends StatelessWidget {
             ),
             SizedBox(height: 20,),
             Text(style: TextStyle(fontSize: 20,fontWeight: FontWeight.w500),
-                "This application demonstrates the skills that i gained during my iti training .It features(briefly describe the key features of your app , such as user authetication using firebase and firestore ,integration with api and handling with postman,etc..)")
+                "An intuitive and feature-rich e-commerce app designed for seamless online shopping experiences. The app includes user-friendly login and registration pages integrated with Firebase to securely store and manage user data. It features personalized user profiles displaying saved information and order history.")
 ,SizedBox(height: 30,),
-Text(style: TextStyle(fontSize: 20,fontWeight: FontWeight.w500)," I am thrilled for the opportunity to join this training and i am excited to continue building upon the foundation it has provided . i hope this application show my growth as flutter devloper and my ability to create functional and user-friendly software solutions ")
+Text(style: TextStyle(fontSize: 20,fontWeight: FontWeight.w500)," The app is powered by an API to fetch real-time product data, ensuring updated and accurate inventory ")
 
           ],
         ),

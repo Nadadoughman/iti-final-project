@@ -9,7 +9,9 @@ class IntroScreen extends StatelessWidget {
         titleWidget: const Text(
           "Discover",
           style: TextStyle(
-              color:  Color.fromARGB(255, 17, 36, 238), fontWeight: FontWeight.w400, fontSize: 35),
+              color: Color.fromARGB(255, 17, 36, 238),
+              fontWeight: FontWeight.w400,
+              fontSize: 35),
         ),
         bodyWidget: const Text(
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "),
@@ -28,7 +30,9 @@ class IntroScreen extends StatelessWidget {
         titleWidget: const Text(
           "Customize",
           style: TextStyle(
-              color: Color.fromARGB(255, 17, 36, 238), fontWeight: FontWeight.w400, fontSize: 35),
+              color: Color.fromARGB(255, 17, 36, 238),
+              fontWeight: FontWeight.w400,
+              fontSize: 35),
         ),
         bodyWidget: const Text(
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."),
@@ -45,13 +49,16 @@ class IntroScreen extends StatelessWidget {
         titleWidget: const Text(
           "Get Delivered",
           style: TextStyle(
-              color:  Color.fromARGB(255, 17, 36, 238), fontWeight: FontWeight.w400, fontSize: 35),
+              color: Color.fromARGB(255, 17, 36, 238),
+              fontWeight: FontWeight.w400,
+              fontSize: 35),
         ),
         bodyWidget: const Text(
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia."),
         image: Center(
           child: Image.asset(
-            "images/deliver.png",height: 500,
+            "images/deliver.png",
+            height: 500,
             width: 500,
           ),
         ),
